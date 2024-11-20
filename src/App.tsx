@@ -2,8 +2,8 @@ import './App.css'
 
 function App() {
   const redirectToLocation = () => {
-    window.location.href = 'https://maps.app.goo.gl/h3o9TsB6HrZdUDWA8'
-  }
+    window.open('https://maps.app.goo.gl/h3o9TsB6HrZdUDWA8', '_blank');
+  };
 
   return (
     <div className='text-gray-600 body-font'>
